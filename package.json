@@ -2,6 +2,7 @@
   "name": "firstapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://clam0696.github.io/firstapp/",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -12,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
